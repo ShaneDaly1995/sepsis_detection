@@ -18,49 +18,50 @@ tsepsis
 The onset time of sepsis is the earlier of tsuspicion and tSOFA as long as tSOFA occurs no more than 24 hours before or 12 hours after tsuspicion; otherwise, the patient is not marked as a sepsis patient. Specifically, if tsuspicion−24≤tSOFA≤tsuspicion+12, then tsepsis=min(tsuspicion,tSOFA).
 
 ## Vital signs (columns 1-8)
-HR	Heart rate (beats per minute)
-O2Sat	Pulse oximetry (%)
-Temp	Temperature (Deg C)
-SBP	Systolic BP (mm Hg)
-MAP	Mean arterial pressure (mm Hg)
-DBP	Diastolic BP (mm Hg)
-Resp	Respiration rate (breaths per minute)
-EtCO2	End tidal carbon dioxide (mm Hg)
-Laboratory values (columns 9-34)
-BaseExcess	Measure of excess bicarbonate (mmol/L)
-HCO3	Bicarbonate (mmol/L)
-FiO2	Fraction of inspired oxygen (%)
-pH	N/A
-PaCO2	Partial pressure of carbon dioxide from arterial blood (mm Hg)
-SaO2	Oxygen saturation from arterial blood (%)
-AST	Aspartate transaminase (IU/L)
-BUN	Blood urea nitrogen (mg/dL)
-Alkalinephos	Alkaline phosphatase (IU/L)
-Calcium	(mg/dL)
-Chloride	(mmol/L)
-Creatinine	(mg/dL)
-Bilirubin_direct	Bilirubin direct (mg/dL)
-Glucose	Serum glucose (mg/dL)
-Lactate	Lactic acid (mg/dL)
-Magnesium	(mmol/dL)
-Phosphate	(mg/dL)
-Potassium	(mmol/L)
-Bilirubin_total	Total bilirubin (mg/dL)
-TroponinI	Troponin I (ng/mL)
-Hct	Hematocrit (%)
-Hgb	Hemoglobin (g/dL)
-PTT	partial thromboplastin time (seconds)
-WBC	Leukocyte count (count/L)
-Fibrinogen	(mg/dL)
-Platelets	(count/mL)
-Demographics (columns 35-40)
-Age	Years
-Gender	Female (0) or Male (1)
-Unit1	Administrative identifier for ICU unit (MICU)
-Unit2	Administrative identifier for ICU unit (SICU)
-HospAdmTime	Hours between hospital admit and ICU admit
-ICULOS	ICU length-of-stay (hours since ICU admit)
-Outcome (column 41)
+HR	Heart rate (beats per minute). 
+O2Sat	Pulse oximetry (%). 
+Temp	Temperature (Deg C). 
+SBP	Systolic BP (mm Hg). 
+MAP	Mean arterial pressure (mm Hg). 
+DBP	Diastolic BP (mm Hg). 
+Resp	Respiration rate (breaths per minute). 
+EtCO2	End tidal carbon dioxide (mm Hg). 
+Laboratory values (columns 9-34). 
+BaseExcess	Measure of excess bicarbonate (mmol/L). 
+HCO3	Bicarbonate (mmol/L). 
+FiO2	Fraction of inspired oxygen (%). 
+pH	N/A. 
+PaCO2	Partial pressure of carbon dioxide from arterial blood (mm Hg). 
+SaO2	Oxygen saturation from arterial blood (%). 
+AST	Aspartate transaminase (IU/L). 
+BUN	Blood urea nitrogen (mg/dL). 
+Alkalinephos	Alkaline phosphatase (IU/L). 
+Calcium	(mg/dL). 
+Chloride	(mmol/L). 
+Creatinine	(mg/dL). 
+Bilirubin_direct	Bilirubin direct (mg/dL). 
+Glucose	Serum glucose (mg/dL). 
+Lactate	Lactic acid (mg/dL). 
+Magnesium	(mmol/dL). 
+Phosphate	(mg/dL). 
+Potassium	(mmol/L). 
+Bilirubin_total	Total bilirubin (mg/dL). 
+TroponinI	Troponin I (ng/mL). 
+Hct	Hematocrit (%). 
+Hgb	Hemoglobin (g/dL). 
+PTT	partial thromboplastin time (seconds). 
+WBC	Leukocyte count (count/L). 
+Fibrinogen	(mg/dL). 
+Platelets	(count/mL). 
+Demographics (columns 35-40)  
+Age	Years. 
+Gender	Female (0) or Male (1). 
+Unit1	Administrative identifier for ICU unit (MICU). 
+Unit2	Administrative identifier for ICU unit (SICU). 
+HospAdmTime	Hours between hospital admit and ICU admit. 
+ICULOS	ICU length-of-stay (hours since ICU admit). 
+Outcome (column 41). 
+
 SepsisLabel	For sepsis patients, SepsisLabel is 1 if t ≥ tsepsis−6 and 0 if t < tsepsis−6. For non-sepsis patients, SepsisLabel is 0.
 
 
